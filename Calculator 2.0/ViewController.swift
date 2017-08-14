@@ -28,10 +28,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-       
-    
-        
+        label.adjustsFontSizeToFitWidth = true
     }
     
     
@@ -50,6 +47,7 @@ class ViewController: UIViewController {
         let num: NSNumber = NSNumber(value: labelInt)
         
         label.text = formatter.string(from: num)
+        
         
     }
     
