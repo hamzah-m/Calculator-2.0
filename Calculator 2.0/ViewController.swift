@@ -34,6 +34,8 @@ class ViewController: UIViewController {
         
     }
     
+    
+    
     func updateText() {
         
         guard let labelInt = Int(labelString) else { return }
@@ -42,9 +44,12 @@ class ViewController: UIViewController {
             savedNum = labelInt
         }
         
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .decimal
         
+        let num: NSNumber = NSNumber(value: labelInt)
         
-        label.text = "\(labelInt)"
+        label.text = formatter.string(from: num)
         
     }
     
