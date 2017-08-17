@@ -12,7 +12,11 @@ enum Mode {
     case addition, subtraction, multiplication, division, not_set
 }
 
+
+
 class ViewController: UIViewController {
+    
+    
     
     var labelString: String = "0"
     var currentMode: Mode = .not_set
@@ -29,6 +33,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         label.adjustsFontSizeToFitWidth = true
+        
     }
     
     

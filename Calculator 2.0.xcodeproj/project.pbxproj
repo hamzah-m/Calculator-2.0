@@ -300,6 +300,7 @@
 				B51914D41F41B9250084F142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
